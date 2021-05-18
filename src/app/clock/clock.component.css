@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+.clock {
+  background-color: lightslategray;
+  padding: 10px;
+  margin: 15px;
+  min-width: 150px;
+  text-align: center;
+  box-shadow: 5px 5px 10px darkslategray;
+}
+
+.clock h2 {
+  color: lightblue;
+  text-shadow: 1px 1px 15px lightcyan;
+  font-family: 'DotGothic16', sans-serif;
+  background-color: darkslategray;
+}
+
+.clock p {
+  color: white;
+}

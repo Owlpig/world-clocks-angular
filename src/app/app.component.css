@@ -1,0 +1,5 @@
+.main-heading {
+  font-size: max(4vw, 30px);
+  text-align: center;
+  text-decoration: underline;
+}
