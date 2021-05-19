@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BoardComponent } from './board.component';
+import { ClockComponent } from '../clock/clock.component';
 
 describe('BoardComponent', () => {
   let component: BoardComponent;
@@ -8,7 +9,10 @@ describe('BoardComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BoardComponent ]
+      declarations: [ 
+        BoardComponent,
+        ClockComponent
+      ]
     })
     .compileComponents();
   });
